@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #c1ecfd;
+    }
+    .hero {
+      background-color: #bf40bf;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      position: relative;
+    }
+    .menu-section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .btn-dashboard {
+      margin: 15px;
+      width: 260px;
+      font-size: 1.1rem;
+      border-radius: 12px;
+    }
+    footer {
+      background-color: #bf40bf;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .home-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: white;
+      color: #bf40bf;
+      border: none;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: background-color 0.2s;
+    }
+    .home-button:hover {
+      background-color: #f0d9f8;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="hero">
+    <!-- TOMBOL HOME -->
+    <a href="index.html" class="home-button" title="Kembali ke Halaman Muka">
+      <i class="bi bi-house-door-fill"></i>
+    </a>
+
+    <h1>EduSmart</h1>
+    <p class="lead">Aplikasi Pembelajaran Interaktif Berbasis Web</p>
+    <h4>Topik: Hak Asasi Manusia (HAM)</h4>
+  </header>
+
+  <!-- MENU -->
+  <section class="menu-section container">
+    <h3 class="mb-4">Menu Belajar:</h3>
+    <div class="d-flex flex-wrap justify-content-center">
+      <a href="materi.html" class="btn btn-primary btn-lg btn-dashboard">📘 Materi</a>
+      <a href="kegiatan.html" class="btn btn-success btn-lg btn-dashboard">📝 Kegiatan Pembelajaran</a>
+      <a href="evaluasi.html" class="btn btn-warning btn-lg btn-dashboard">🧪 Evaluasi</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 EduSmart | UAS Smart Learning | Magister Teknologi Pendidikan</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
